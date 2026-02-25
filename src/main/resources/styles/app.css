@@ -1,0 +1,219 @@
+
+.root {
+    -fx-font-family: "Segoe UI", "Inter", "Arial";
+    -fx-font-size: 13px;
+
+
+    -fx-base: #0b1326;
+    -fx-background: #0b1326;
+    -fx-control-inner-background: #0e1933;
+    -fx-accent: #5aa0ff;
+    -fx-focus-color: #5aa0ff;
+    -fx-faint-focus-color: rgba(90, 160, 255, 0.25);
+
+
+    -fx-text-fill: #e8f0ff;
+
+
+    -fx-background-color: linear-gradient(to bottom right, #081024, #0b1b2f 55%, #050b16);
+}
+
+
+.label {
+    -fx-text-fill: #e8f0ff;
+}
+
+
+.vbox, .hbox, .grid-pane, .border-pane, .stack-pane, .anchor-pane {
+    -fx-background-color: transparent;
+}
+
+
+.separator .line {
+    -fx-border-color: rgba(130, 170, 255, 0.22);
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.scroll-pane > .viewport {
+
+    -fx-background-color: transparent;
+}
+.scroll-pane .corner {
+    -fx-background-color: rgba(10, 18, 36, 0.85);
+}
+
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+.scroll-bar .track {
+    -fx-background-color: rgba(255, 255, 255, 0.06);
+    -fx-background-radius: 10;
+}
+.scroll-bar .thumb {
+    -fx-background-color: rgba(90, 160, 255, 0.35);
+    -fx-background-radius: 10;
+}
+.scroll-bar .thumb:hover {
+    -fx-background-color: rgba(90, 160, 255, 0.55);
+}
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 4;
+}
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+    -fx-background-color: rgba(232, 240, 255, 0.60);
+}
+
+
+.button {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 8 14;
+
+    -fx-background-color:
+            linear-gradient(to bottom, rgba(90, 160, 255, 0.35), rgba(90, 160, 255, 0.16));
+    -fx-border-color: rgba(120, 180, 255, 0.55);
+
+    -fx-text-fill: #eef5ff;
+    -fx-font-weight: 700;
+
+    -fx-effect: dropshadow(gaussian, rgba(90, 160, 255, 0.25), 12, 0.35, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color:
+            linear-gradient(to bottom, rgba(120, 200, 255, 0.52), rgba(90, 160, 255, 0.18));
+    -fx-border-color: rgba(170, 220, 255, 0.75);
+}
+
+.button:pressed {
+    -fx-background-color:
+            linear-gradient(to bottom, rgba(40, 80, 190, 0.55), rgba(15, 30, 85, 0.30));
+    -fx-effect: dropshadow(gaussian, rgba(90, 160, 255, 0.12), 6, 0.2, 0, 1);
+}
+
+.button:disabled {
+    -fx-opacity: 0.55;
+}
+
+
+.text-field, .password-field, .text-area {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 8 10;
+
+    -fx-control-inner-background: rgba(10, 18, 36, 0.90);
+    -fx-background-color: rgba(10, 18, 36, 0.90);
+
+    -fx-border-color: rgba(140, 190, 255, 0.28);
+    -fx-text-fill: #eaf2ff;
+
+    -fx-prompt-text-fill: rgba(210, 230, 255, 0.45);
+
+    -fx-highlight-fill: rgba(90, 160, 255, 0.35);
+    -fx-highlight-text-fill: #ffffff;
+
+    -fx-effect: dropshadow(gaussian, rgba(40, 120, 255, 0.18), 10, 0.25, 0, 1);
+}
+
+.text-area .content {
+    -fx-background-color: rgba(10, 18, 36, 0.90);
+}
+
+
+.combo-box {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: rgba(10, 18, 36, 0.90);
+    -fx-border-color: rgba(140, 190, 255, 0.28);
+}
+.combo-box .list-cell {
+    -fx-text-fill: #eaf2ff;
+}
+
+
+.list-view {
+    -fx-background-color: rgba(10, 18, 36, 0.55);
+    -fx-border-color: rgba(140, 190, 255, 0.20);
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+}
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #eaf2ff;
+    -fx-padding: 10 10;
+}
+.list-cell:filled:hover {
+    -fx-background-color: rgba(90, 160, 255, 0.12);
+}
+.list-cell:filled:selected {
+    -fx-background-color: rgba(90, 160, 255, 0.22);
+    -fx-text-fill: #ffffff;
+}
+
+
+.table-view {
+    -fx-background-color: rgba(10, 18, 36, 0.55);
+    -fx-border-color: rgba(140, 190, 255, 0.20);
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+}
+.table-view .column-header-background {
+    -fx-background-color: rgba(20, 35, 70, 0.85);
+}
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(140, 190, 255, 0.16);
+}
+.table-view .column-header .label {
+    -fx-text-fill: #eaf2ff;
+    -fx-font-weight: 800;
+}
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(140, 190, 255, 0.06);
+}
+.table-row-cell:filled:hover {
+    -fx-background-color: rgba(90, 160, 255, 0.10);
+}
+.table-row-cell:filled:selected {
+    -fx-background-color: rgba(90, 160, 255, 0.20);
+}
+.table-cell {
+    -fx-text-fill: #eaf2ff;
+}
+
+
+.tab-pane {
+    -fx-background-color: transparent;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: rgba(10, 18, 36, 0.55);
+}
+.tab {
+    -fx-background-color: rgba(10, 18, 36, 0.65);
+    -fx-background-radius: 10 10 0 0;
+    -fx-border-color: rgba(140, 190, 255, 0.18);
+    -fx-border-radius: 10 10 0 0;
+}
+.tab .tab-label {
+    -fx-text-fill: #eaf2ff;
+    -fx-font-weight: 800;
+}
+.tab:selected {
+    -fx-background-color: rgba(90, 160, 255, 0.18);
+    -fx-border-color: rgba(170, 220, 255, 0.55);
+}
+
+
+.dialog-pane {
+    -fx-background-color: rgba(10, 18, 36, 0.96);
+}
+.dialog-pane .label {
+    -fx-text-fill: #eaf2ff;
+}

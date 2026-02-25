@@ -1,0 +1,15 @@
+sport, sports, match, game, games, tournament, football, soccer, league
+
+theatre, theater, play, plays, stage, drama, opera
+
+cinema, movie, movies, film, films, screening, premiere
+
+music, concert, concerts, gig, gigs, dj
+
+book, books, literature, reading, author, writers, poetry, novel, novels, library, bookstore, bookclub
+
+workshop, workshops, training, course, courses, class, classes, masterclass, bootcamp, tutorial
+
+conference, conferences, summit, forum, symposium, convention, keynote, panel, meetup, networking, talk, talks, seminar, seminars
+
+food, dining, restaurant, restaurants, cafe, cafes, bar, bars, tasting, brunch, dinner, lunch, cuisine, menu
